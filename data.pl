@@ -1074,6 +1074,20 @@ tech(danial_hassan,f).
 tech(danial_hassan,m).
 
 
+
+examTime(1,09:00,10:00,cs211).
+examTime(1,09:00,10:00,cs218).
+examTime(3,09:00,10:00,mg220).
+examTime(3,09:00,10:00,ee227).
+examTime(5,09:00,10:00,mg223).
+examTime(1,10:40,11:40,cs461).
+examTime(5,10:40,11:40,ds201).
+examTime(4,12:20,13:20,mt104).
+examTime(5,12:20,13:20,el229).
+
+
+
+
 teaches(E,S):-
 instructor(E,N),
 tech(N,S).
