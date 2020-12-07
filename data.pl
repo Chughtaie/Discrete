@@ -661,9 +661,14 @@ tech(danial_hassan,f).
 tech(danial_hassan,m).
 
 
-teaches(email,sec):-
-instructor(email,name),
-tech(name,sec).
+teaches(E,S):-
+instructor(E,N),
+tech(N,S).
 
+
+two(A,B):-
+instructor(E,A),
+teaches(E,S),
+course_section(B,S).
 
 
