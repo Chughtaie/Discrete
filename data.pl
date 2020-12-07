@@ -1016,65 +1016,6 @@ section(i192203,m).
 
 
 
-
-tech(adnan_tariq,a).
-tech(hassan_mustafa,b).
-tech(saba_rasheed,c).
-tech(saba_rasheed,d).
-tech(noor_ul_ain,e).
-tech(hassan_mustafa,f).
-tech(saba_rasheed,g).
-tech(noor_ul_ain,j).
-tech(noor_ul_ain,k).
-tech(shehreyar_rashid,n).
-tech(shehreyar_rashid,m).
-tech(umair_arshad,n).
-tech(zeeshan_qaiser,m).
-tech(rohail_gulbaz,a).
-tech(ameen_chilwan,b).
-tech(ameen_chilwan,c).
-tech(farwa_batool,d).
-tech(shams_farooq,e).
-tech(farwa_batool,f).
-tech(rohail_gulbaz,g).
-tech(khadija_farooq,a).
-tech(shafaq_riaz,b).
-tech(amna_irum,c).
-tech(amna_irum,d).
-tech(arshad_islam,e).
-tech(khadija_farooq,f).
-tech(amna_irum,g).
-tech(shafaq_riaz,m).
-tech(shoaib_mehboob,j).
-tech(shams_farooq,k).
-tech(shams_farooq,n).
-
-tech(irfan_shah,a).
-tech(irfan_shah,b).
-tech(irfan_shah,c).
-tech(rafia_latif,d).
-tech(irfan_shah,e).
-tech(zunaira_sajid,f).
-tech(rafia_latif,g).
-tech(sara_aziz,n).
-tech(sumaira_azhar,j).
-tech(sara_aziz,k).
-tech(sara_aziz,m).
-tech(farah_naz,j).
-tech(farah_naz,k).
-tech(farah_naz,n).
-
-tech(aqeel_shahzad,a).
-tech(aqeel_shahzad,c).
-tech(sahar_arshad,b).
-tech(sahar_arshad,d).
-tech(inji_akhtar,e).
-tech(inji_akhtar,g).
-tech(danial_hassan,f).
-tech(danial_hassan,m).
-
-
-
 examTime(1,09:00,10:00,cs211).
 examTime(1,09:00,10:00,cs218).
 examTime(3,09:00,10:00,mg220).
@@ -1088,10 +1029,10 @@ examTime(5,12:20,13:20,el229).
 
 
 
-teaches(E,S):-
-instructor(E,N),
-tech(N,S).
-
+teaches(V,S):-
+instructor(V,N),
+course(C,N),
+course_section(C,S).
 
 two(A,B):-
 instructor(E,A),
