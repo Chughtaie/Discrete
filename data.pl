@@ -643,3 +643,4 @@ course(mg223,fundamentals_of_management).
 section(R,S):-
 course_section(cs211,S).
 
+
